@@ -1,1 +1,15 @@
 # Make your shoe class here!
+class Shoe
+
+    def initialize(brand)
+        @brand = brand
+    end
+
+    attr_accessor :brand, :color, :size, :material, :condition
+
+    def cobble
+        @condition = "new" # calling the condition instance and setting it to new under cobble
+    puts "Your shoe is as good as new!"
+    end
+
+end
